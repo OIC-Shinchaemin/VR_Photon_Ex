@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Floor
+  - Target100
+  - Target30
+  - Target10
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -21,10 +25,10 @@ TagManager:
   - LocalAvaterBody
   - InHand
   - Wall
-  - Target10
-  - Target30
-  - Target100
-  - Target???
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
