@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 137
+  controlID: 142
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 64
+  controlID: 65
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 65
+  controlID: 66
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -321,10 +321,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 347
+    x: 373
     y: 73
-    width: 659
-    height: 429
+    width: 633
+    height: 343
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -334,7 +334,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 659, y: 408}
+  m_TargetSize: {x: 572, y: 322}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -349,10 +349,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -329.5
-    m_HBaseRangeMax: 329.5
-    m_VBaseRangeMin: -214.5
-    m_VBaseRangeMax: 214.5
+    m_HBaseRangeMin: -286
+    m_HBaseRangeMax: 286
+    m_VBaseRangeMin: -161
+    m_VBaseRangeMax: 161
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -369,24 +369,24 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
-      width: 659
-      height: 429
+      y: 21
+      width: 633
+      height: 322
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 329.5, y: 214.5}
+    m_Translation: {x: 316.5, y: 161}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -329.5
-      y: -214.5
-      width: 659
-      height: 429
+      x: -316.5
+      y: -161
+      width: 633
+      height: 322
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 659, y: 429}
+  m_LastWindowPixelSize: {x: 633, y: 343}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000001000000000000
@@ -420,24 +420,24 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 178}
-      m_SelectedIDs: c83b0000
-      m_LastClickedID: 15304
-      m_ExpandedIDs: 60fbffff4c3b00009a3c0000183e0000243e0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: b045ffffca45ffff0251ffff5653ffff7653ffff9855ffff0059ffff1a59ffff5264ffffa666ffffc666ffffe868ffffd86afffff26affff2a76ffff7e78ffff9e78ffffc07affff567cffff707cffffd489ffff328cffff528cffff988effff6c9affffce9cffffe89cffff20a8ffff74aaffff92aaffffb4acffff1eadffff38adffff9cbafffffabcffff18bdffff5ebfffffa6c1ffffc0c1fffff8ccffff4ccfffff6acfffff8cd1ffff54d2ffff6ed2ffffd2dfffff30e2ffff4ee2ffff94e4ffff60fbffff4e3b0000643c00003e3e0000fc95000020990000289a0000269b0000e2eb000002ed000064ed000000f100000cf1000058210100923f0100bc440100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: DartsBall
+        m_OriginalName: DartsBall
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 60806
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -483,9 +483,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.847786, y: -1.3982427, z: -2.6267447}
+    m_Target: {x: 0.43916142, y: 0.68022513, z: -5.428631}
     speed: 2
-    m_Value: {x: -2.847786, y: -1.3982427, z: -2.6267447}
+    m_Value: {x: 0.43916142, y: 0.68022513, z: -5.428631}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -531,20 +531,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.04304986, y: 0.9178398, z: -0.38083568, w: -0.10369895}
+    m_Target: {x: 0.0229203, y: 0.97229856, z: -0.2060328, w: 0.10836467}
     speed: 2
-    m_Value: {x: -0.043619487, y: 0.91765, z: -0.38075688, w: -0.10507178}
+    m_Value: {x: 0.022919357, y: 0.97225857, z: -0.20602432, w: 0.108360216}
   m_Size:
-    m_Target: 4.9836154
+    m_Target: 4.7598076
     speed: 2
-    m_Value: 4.683615
+    m_Value: 4.4598074
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 0.9
+    m_SpeedNormalized: 0.47
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -665,20 +665,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/IRONHEAD Games/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/IRONHEAD Games/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\USER\Documents\kusoitai\MultiplayerVRoom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: ac430000
-    m_LastClickedID: 17324
-    m_ExpandedIDs: 00000000ac430000ae430000b043000000ca9a3b
+    m_SelectedIDs: f8430000
+    m_LastClickedID: 17400
+    m_ExpandedIDs: 00000000c6430000c8430000ca43000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -706,7 +706,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ac430000ae430000b0430000
+    m_ExpandedIDs: 00000000c6430000c8430000ca430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -784,9 +784,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 523
+    y: 437
     width: 1007
-    height: 164
+    height: 250
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &19
 MonoBehaviour:
