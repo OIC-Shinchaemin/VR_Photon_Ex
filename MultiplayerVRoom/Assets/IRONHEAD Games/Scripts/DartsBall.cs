@@ -11,9 +11,6 @@ public class DartsBall : MonoBehaviour
     private bool Score30;
     private bool Score10;
     private bool ScoreHinekure;
-
-    //public TextMeshProUGUI Score;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +25,7 @@ public class DartsBall : MonoBehaviour
         {
             Score100 = true;
             Debug.Log("Target100");
+
 
         }
         if (other.gameObject.tag == "Target30")
@@ -52,23 +50,29 @@ public class DartsBall : MonoBehaviour
             if(Score100)
             {
                 Debug.Log("はい、罰金100万円");
+                DartsSystem.DS.Score += 100;
             }
             else if(Score30)
             {
                 Debug.Log("はい、30万ベルだなも。");
+                DartsSystem.DS.Score += 30;
             }
             else if(Score10)
             {
                 Debug.Log("10円!!");
+                DartsSystem.DS.Score += 10;
             }
             else if(ScoreHinekure)
             {
                 Debug.Log("捻くれてますねぇ");
+                DartsSystem.DS.Score += 500;
             }
             else
             {
                 Debug.Log("はい。死んでください");
             }
+            DartsSystem.DS.ThrowCount += 1;
+            DartsSystem.DS.ScoreText.text = DartsSystem.DS.Score.ToString();
             Destroy(gameObject);
         }
 
