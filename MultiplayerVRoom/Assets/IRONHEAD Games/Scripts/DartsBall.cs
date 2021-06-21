@@ -71,8 +71,9 @@ public class DartsBall : MonoBehaviour
             {
                 Debug.Log("はい。死んでください");
             }
-            DartsSystem.DS.ThrowCount += 1;
-            DartsSystem.DS.ScoreText.text = DartsSystem.DS.Score.ToString();
+            DartsSystem.DS.BallsCount -= 1;
+            DartsSystem.DS.BallsAmount.text = DartsSystem.DS.BallsCount.ToString();
+            DartsSystem.DS.ScoreAmount.text = DartsSystem.DS.Score.ToString();
             Destroy(gameObject);
         }
 
