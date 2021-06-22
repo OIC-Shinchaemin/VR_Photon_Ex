@@ -501,7 +501,7 @@ GameObject:
   m_Component:
   - component: {fileID: 166868491}
   - component: {fileID: 166868492}
-  m_Layer: 18
+  m_Layer: 0
   m_Name: Waht???
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -552,6 +552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 212620803}
   - component: {fileID: 212620804}
+  - component: {fileID: 212620805}
   m_Layer: 0
   m_Name: DartsSystem
   m_TagString: Untagged
@@ -594,6 +595,103 @@ MonoBehaviour:
   LastScore: {fileID: 351383234}
   DartsBall: {fileID: 3667711952637965086, guid: 9cab0a463c449174f83aeb0d8398a7dd,
     type: 3}
+  StartSound: {fileID: 212620805}
+--- !u!82 &212620805
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212620802}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 4d5a6bff7982a984bba6767efe051d8d, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &289260042
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -890,10 +988,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.40959638
+  m_Radius: 0.11958124
   m_Height: 1.9489737
   m_Direction: 2
-  m_Center: {x: 0.51584846, y: 0.06131667, z: -0.32423544}
+  m_Center: {x: 0.57357764, y: -0.003992617, z: -0.32423544}
 --- !u!1001 &343562749
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1243,6 +1341,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1709955378}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &455250663 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6554703651548629023, guid: 6498a99bb2c56a34fb748cb1d00b2d0e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1980624627}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &455250664
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455250663}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3712450111236931670, guid: e5e865bb4d6360446899f5afa9c2f7bd, type: 3}
 --- !u!1 &468501754
 GameObject:
   m_ObjectHideFlags: 0
@@ -7000,10 +7118,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.6843623
+  m_Radius: 0.3411954
   m_Height: 2.4686308
   m_Direction: 2
-  m_Center: {x: 0.03903991, y: 0.23502886, z: 0.14798784}
+  m_Center: {x: -0.020434141, y: 0.25891846, z: 0.14798784}
 --- !u!1 &1876604485
 GameObject:
   m_ObjectHideFlags: 0
@@ -7324,6 +7442,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NerfBoard (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6554703651548629023, guid: 6498a99bb2c56a34fb748cb1d00b2d0e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7831097737701882380, guid: 6498a99bb2c56a34fb748cb1d00b2d0e,
         type: 3}

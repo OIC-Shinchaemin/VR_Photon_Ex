@@ -20,6 +20,8 @@ public class DartsSystem : MonoBehaviour
 
     public GameObject DartsBall;
 
+    public AudioSource StartSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,7 +41,7 @@ public class DartsSystem : MonoBehaviour
     //ゲーム開始時の処理。
     public void GameStart()
     {
-
+        StartSound.Play();
         GameBord.SetActive(false);
         ScoreBord.SetActive(true);
         Score = 0;

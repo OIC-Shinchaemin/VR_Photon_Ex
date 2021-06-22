@@ -198,3 +198,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 856d900ac15ac2646aac1f52fd46f1a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScorePop_100: {fileID: 2376898573619822958, guid: 704fcf3cdc7bdc84aa70afca5e1ecb5b,
+    type: 3}
+  ScorePop_30: {fileID: 2346484945900587397, guid: 77d9bb4a792679c41b8c9def84ed94db,
+    type: 3}
+  ScorePop_10: {fileID: 4386148732656733885, guid: 707e703ea3f84d945873db3c1db03381,
+    type: 3}
+  ScorePop_MISS: {fileID: 1652984918221650399, guid: bc162189325641b48bc15e2cd54feeb8,
+    type: 3}
