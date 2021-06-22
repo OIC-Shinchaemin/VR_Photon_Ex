@@ -21,7 +21,7 @@ namespace UnityEngine.XR.Interaction.Toolkit
         const int k_ThrowSmoothingFrameCount = 20;
         const float k_DefaultAttachEaseInTime = 0.15f;
         const float k_DefaultThrowSmoothingDuration = 0.25f;
-        const float k_DefaultThrowVelocityScale = 3.0f;
+        const float k_DefaultThrowVelocityScale = 2.5f;
         const float k_DefaultThrowAngularVelocityScale = 0.25f;
 
         [SerializeField]

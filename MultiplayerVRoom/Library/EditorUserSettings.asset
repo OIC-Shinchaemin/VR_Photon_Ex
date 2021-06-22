@@ -5,6 +5,9 @@ EditorUserSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 4
   m_ConfigSettings:
+    StartScenePathKey:
+      value: 22424703114646723f21220a35027b503116152f3f67153328271820adcc3b3febe905eae2343a722c0ce6281d
+      flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0
