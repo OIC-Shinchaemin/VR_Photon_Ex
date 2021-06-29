@@ -8,7 +8,7 @@ public class TennisRacket : MonoBehaviour
 
     private Rigidbody rb;
 
-    private float power = 3.0f;
+    private float power = 1.5f;
 
     private void Start()
     {
