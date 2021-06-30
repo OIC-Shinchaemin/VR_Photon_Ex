@@ -33,7 +33,7 @@ public class InputListener : MonoBehaviour
             bool inputValue;
             if(inputDevice.TryGetFeatureValue(CommonUsages.primaryButton,out inputValue)&& inputValue)
             {
-                Debug.Log("You pressed the Primary button");
+                //Debug.Log("You pressed the Primary button");
             }
         }
     }
