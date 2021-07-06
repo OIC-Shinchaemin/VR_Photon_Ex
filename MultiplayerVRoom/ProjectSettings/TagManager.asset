@@ -10,6 +10,8 @@ TagManager:
   - Target10
   - Wall
   - Target???
+  - Bullet
+  - Ball
   layers:
   - Default
   - TransparentFX
@@ -26,7 +28,7 @@ TagManager:
   - LocalAvaterBody
   - InHand
   - Wall
-  - 
+  - PlayArea
   - 
   - 
   - 
