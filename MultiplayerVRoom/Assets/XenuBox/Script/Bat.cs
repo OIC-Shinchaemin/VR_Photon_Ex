@@ -22,6 +22,7 @@ public class Bat : MonoBehaviour
             Force = rb.velocity * power;
             Debug.Log(Force);
             col.gameObject.GetComponent<Rigidbody>().AddForce(Force, ForceMode.Impulse);
+            col.gameObject.GetComponent<Rigidbody>().useGravity = true;
         }
     }
 }

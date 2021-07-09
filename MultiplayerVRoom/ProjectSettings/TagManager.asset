@@ -12,6 +12,7 @@ TagManager:
   - Target???
   - Ball
   - HomeRunArea
+  - Bat
   layers:
   - Default
   - TransparentFX

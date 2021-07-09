@@ -7,21 +7,27 @@ public class BattingBall : MonoBehaviour
 
     [SerializeField] AudioSource miss;
     [SerializeField] AudioSource homerun;
-
+    private bool hit;
     private Rigidbody rb;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
 
-        rb.velocity = new Vector3(0, 5.5f, -25);
+        rb.velocity = new Vector3(0, 0, -10);
     }
 
     private void OnCollisionEnter(Collision collision)
     {
+
+        if(collision.gameObject.tag == "Bat")
+        {
+            hit = true;
+        }
+
         if(collision.gameObject.tag == "Wall")
         {
-            //miss.Play();
-            //Destroy(gameObject);
+            Destroy(gameObject);
+            Debug.Log("消えました（ガチギレ）"+transform.position);
         }
         if(collision.gameObject.tag == "HomeRunArea")
         {
