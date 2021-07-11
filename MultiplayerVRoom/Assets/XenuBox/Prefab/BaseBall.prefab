@@ -127,6 +127,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   miss: {fileID: -4262697374471093126}
   homerun: {fileID: -3820048124395380936}
+  soundcube: {fileID: 8597911089084327398, guid: dbe6f9ceccfd44b4eb9aaba2ebfd7c4a,
+    type: 3}
+  TextClearTimer: {fileID: 6481211256915663503, guid: 0c34ab730d35c6b42ba7b2f6fdbae595,
+    type: 3}
 --- !u!82 &-4262697374471093126
 AudioSource:
   m_ObjectHideFlags: 0
@@ -140,7 +144,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: e933019062f579f4ea4064a1a3a5038b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
-  m_Pitch: 1
+  m_Pitch: 1.2
   Loop: 0
   Mute: 0
   Spatialize: 0
