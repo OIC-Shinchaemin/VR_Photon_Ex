@@ -21,7 +21,7 @@ public class SettingStartSceneWindow : EditorWindow
     //=================================================================================
 
     //メニューからウィンドウを表示
-    [MenuItem("Window/SettingStartSceneWindow")]
+    [MenuItem("U_Tool/SettingStartSceneWindow")]
     public static void Open()
     {
         SettingStartSceneWindow.GetWindow<SettingStartSceneWindow>(typeof(SettingStartSceneWindow));
