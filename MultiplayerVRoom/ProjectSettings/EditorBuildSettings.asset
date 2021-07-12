@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SoccerScene.unity
     guid: 72b3e0ae629d38144b6f5dd7760012a3
+  - enabled: 1
+    path: Assets/Scenes/BaseBallScene.unity
+    guid: 0a3b6a8c030d10942abf23d8ae9bec59
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4f688cd94168eeb4b896170e02cdd854,
       type: 2}
