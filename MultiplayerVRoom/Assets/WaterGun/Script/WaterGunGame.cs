@@ -6,7 +6,7 @@ using Photon.Realtime;
 
 public class WaterGunGame : MonoBehaviourPunCallbacks, IPunObservable
 {
-    public const int WinTime = 180;
+    public const int WinTime = 20;
     public GameObject StartObj1;
     public GameObject StartObj2;
     public GameObject WaterGun1;
