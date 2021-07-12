@@ -11,8 +11,12 @@ TagManager:
   - Wall
   - Target???
   - Ball
+<<<<<<< HEAD
   - HomeRunArea
   - Bat
+=======
+  - WaterGunUi
+>>>>>>> WaterGun
   layers:
   - Default
   - TransparentFX
