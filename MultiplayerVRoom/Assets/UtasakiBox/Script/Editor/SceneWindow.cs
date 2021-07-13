@@ -47,6 +47,18 @@ public class SceneWindow : EditorWindow
             OpenScene("World_School");
         }
 
+        if (GUILayout.Button("World_Outdoor", buttonStyle, layoutOptions))
+        {
+            if (!EditorSceneManager.SaveModifiedScenesIfUserWantsTo(new Scene[] { SceneManager.GetActiveScene() })) return;
+            OpenScene("World_Outdoor");
+        }
+        
+        if (GUILayout.Button("BaseBallScene", buttonStyle, layoutOptions))
+        {
+            if (!EditorSceneManager.SaveModifiedScenesIfUserWantsTo(new Scene[] { SceneManager.GetActiveScene() })) return;
+            OpenScene("BaseBallScene");
+        }
+        
         if (GUILayout.Button("SoccerScene", buttonStyle, layoutOptions))
         {
             if (!EditorSceneManager.SaveModifiedScenesIfUserWantsTo(new Scene[] { SceneManager.GetActiveScene() })) return;
