@@ -24,12 +24,12 @@ public class NetworkedGrabbing : MonoBehaviourPunCallbacks,IPunOwnershipCallback
     {
         if (isBeingHeld)
         {
-            //rb.isKinematic = true;
+            rb.isKinematic = true;
             gameObject.layer = 13;
         }
         else
         {
-            //rb.isKinematic = false;
+            rb.isKinematic = false;
             gameObject.layer = 8;
         }
     }
