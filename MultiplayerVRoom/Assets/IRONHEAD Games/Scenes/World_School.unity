@@ -3227,8 +3227,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198000011091858530, guid: a60a75fdadab5de428529a5b8ef0426a,
         type: 3}
+      propertyPath: ColorModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000011091858530, guid: a60a75fdadab5de428529a5b8ef0426a,
+        type: 3}
+      propertyPath: NoiseModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000011091858530, guid: a60a75fdadab5de428529a5b8ef0426a,
+        type: 3}
       propertyPath: TriggerModule.enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000011091858530, guid: a60a75fdadab5de428529a5b8ef0426a,
+        type: 3}
+      propertyPath: EmissionModule.enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 198000011091858530, guid: a60a75fdadab5de428529a5b8ef0426a,
         type: 3}
@@ -3247,8 +3262,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198000011091858530, guid: a60a75fdadab5de428529a5b8ef0426a,
         type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.atime1
+      value: 5204
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000011091858530, guid: a60a75fdadab5de428529a5b8ef0426a,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.atime2
+      value: 60331
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000011091858530, guid: a60a75fdadab5de428529a5b8ef0426a,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key2.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000011091858530, guid: a60a75fdadab5de428529a5b8ef0426a,
+        type: 3}
       propertyPath: EmissionModule.rateOverTime.minMaxState
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000011091858530, guid: a60a75fdadab5de428529a5b8ef0426a,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.m_NumAlphaKeys
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 198000011091858530, guid: a60a75fdadab5de428529a5b8ef0426a,
         type: 3}
@@ -3319,6 +3354,11 @@ PrefabInstance:
         type: 3}
       propertyPath: InitialModule.maxNumParticles
       value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: 199000011872350378, guid: a60a75fdadab5de428529a5b8ef0426a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a60a75fdadab5de428529a5b8ef0426a, type: 3}
